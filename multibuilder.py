@@ -2,12 +2,7 @@
 
 import json
 
-class Builder:
-    def add(self, key, value): pass
-    def build(self): pass
-    def status(self, code): pass
-
-class HeaderBuilder(Builder):
+class HeaderBuilder:
     def __init__(self):
         self._header = {}
 
@@ -31,7 +26,7 @@ class HeaderBuilder(Builder):
     def set_body(self, body):
         self._body = body
 
-class BodyBuilder(Builder):
+class BodyBuilder:
     def __init__(self):
         self._body = {}
 
