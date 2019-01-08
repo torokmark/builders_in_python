@@ -1,8 +1,8 @@
-# Response Builder
+# Builder in Python
 
-Is a simple tool to create http responses without hustle!
+Demo repo to the builder post (https://torokmark.github.io/2019/01/08/builders-in-python.html)
 
-# Usage
+# Usage of multibuilder
 
 ```python
 print(ResponseBuilder()
